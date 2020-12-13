@@ -1,0 +1,95 @@
+body {
+    height: 90vh;
+    overflow-x: hidden;
+    background: linear-gradient(120deg, #2980B9, #6DD5FA, #5D26C1) fixed;
+    text-align: center;
+}
+
+h1 {
+    color: darkslategray;
+    text-align: center;
+    margin: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: #555;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #6DD5FA;
+}
+
+/* index.html */
+div#gamesContainer {
+    padding: 30px;
+}
+div#gamesContainer > * {
+    padding: 5px;
+}
+div.card {
+    background-color: rgba(255,255,255,0.25);
+    height: 100%;
+    transition: width 500ms ease;
+}
+div.card > img, div.card > a {
+    width: 100%;
+}
+
+div#footerGhost {
+    height: 15vh;
+}
+div#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.25);
+}
+div#footer > * {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+/* snake.html */
+div#snakeContainer {
+    position: relative;
+    display: inline-block;
+    
+    background-color: rgba(255,255,255,0.25);
+}
+#scoreContainer {
+    height: 3em;
+}
+#score {
+    font-size: 1.25em;
+    transition: font-size 500ms ease;
+}
+#back {
+    width: 100px;
+}
+
+/* guide.html */
+div#guideContainer {
+    background: rgba(255,255,255,0.25);
+    margin: 5vh 10vw;
+    padding: 20px;
+    text-align: left;
+}
+div#guideContainer p,li {
+    font-size: 1.25em;
+}
+div#guideContainer > h4 {
+    text-indent: 50px;
+}
+
+.carousel-item > img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+figure > img {
+    width: 100%;
+}
